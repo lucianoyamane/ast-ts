@@ -20,7 +20,11 @@ const recast = require('recast');
 
 // console.log(recast.print(tsAst).code)
 
-const program = ts.createProgram(["my.component.ts"], {});
+
+
+
+
+// const program = ts.createProgram(["my.component.ts"], {});
 
 const node = ts.createSourceFile(
     'x.ts',`

@@ -11,4 +11,9 @@ export class MyComponent {
       condicao = false;
     }
   }
+
+  testeMemberExpression() {
+    let object:any = { attrObj: { id: 'attr_id' } }
+    return object.attrObj.id;
+  }
 }
